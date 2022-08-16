@@ -17,15 +17,20 @@ Route::get('/', function () {
 
 Route::get('post/{post}', function ($slug) {
 //    return $slug;
-    $path = __DIR__ . "/../resources/posts/{$slug}.html";
+//    $path = __DIR__ . "/../resources/posts/{$slug}.html";
 
-    if (! file_exists($path)) {
-        ddd('File does not exist!');
+//    dd($path);
+
+    if (! file_exists($path = __DIR__ . "/../resources/posts/{$slug}.html")) {
+        return redirect('/');
+//        abort(404);
     }
 
-    $post = file_get_contents($path);
+    $post = cache()->remember("posts.{$slug}", 10, function () use ($path) {
+//        var_dump('file_get_contents');
+        return file_get_contents($path);
+    });
 
-    return view('post', [
-        'post' => $post
-    ]);
-});
+
+    return view('post', ['post' => $post]);
+})->where('post', '[A-z_\-]+');

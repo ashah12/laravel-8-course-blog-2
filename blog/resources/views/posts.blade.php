@@ -7,7 +7,7 @@
 
 <body>
     <article>
-        <h1><a href="/post">First blog post</a></h1>
+        <h1><a href="/post/first-blog-post">First blog post</a></h1>
 
         <p>
             Hello darkness, my old friend
@@ -47,7 +47,7 @@
         </p>
     </article>
     <article>
-        <h1><a href="/post">Second blog post</a></h1>
+        <h1><a href="/post/second-blog-post">Second blog post</a></h1>
 
         <p>
             Hello darkness, my old friend
@@ -87,7 +87,7 @@
         </p>
     </article>
     <article>
-        <h1><a href="/post">Third blog post</a></h1>
+        <h1><a href="/post/third-blog-post">Third blog post</a></h1>
 
         <p>
             Hello darkness, my old friend
