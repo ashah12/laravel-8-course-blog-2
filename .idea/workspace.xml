@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ba5e0c-75d9-46cd-bad7-60dcbdf8ab76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/resources/posts/fourth-blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravel-8-course-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-8-course-blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/posts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +15,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,16 +128,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/abduhlah/Desktop/Laravel8course/laravel-8-course-blog/blog/resources/posts",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/abduhlah/Desktop/Laravel8course/laravel-8-course-blog/blog/resources/posts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blog/resources/posts" />
@@ -154,7 +153,8 @@
       <updated>1660654626692</updated>
       <workItem from="1660654628150" duration="12000" />
       <workItem from="1660708313068" duration="1266000" />
-      <workItem from="1660713194305" duration="3803000" />
+      <workItem from="1660713194305" duration="4134000" />
+      <workItem from="1660778822504" duration="2737000" />
     </task>
     <servers />
   </component>

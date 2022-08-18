@@ -7,7 +7,10 @@
 
 <body>
     <article>
-        <?= $post; ?>
+        <h1><?= $post; ?></h1>
+        <div>
+        </div>
+
     </article>
 
     <a href="/">Go back</a>
