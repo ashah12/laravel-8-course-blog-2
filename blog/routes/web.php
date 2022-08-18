@@ -16,25 +16,8 @@ use Illuminate\Support\Facades\File;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 
 Route::get('/', function () {
-    $files = File::files(resource_path("posts"));
-
-//    dd($files);
-    $posts = [];
-
-    foreach ($files as $file) {
-        $document = YamlFrontMatter::parseFile($file);
-
-        $posts[] = new Post(
-            $document->title,
-            $document->excerpt,
-            $document->date,
-            $document->slug,
-            $document->body()
-        );
-    }
-
     return view('posts', [
-        'posts' => $posts
+        'posts' => Post::all()
     ]);
 });
 
