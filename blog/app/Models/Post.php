@@ -28,6 +28,20 @@ class Post
     }
 
     public static function all(){
+//        Unable to clear cache with php artisan tinker within the docker container so not caching this
+//        return cache()->rememberForever('posts.all', function () {
+//            return collect(File::files(resource_path("posts")))
+//                ->map(fn($file) => YamlFrontMatter::parseFile($file))
+//                ->map(fn($document) => new Post(
+//                    $document->title,
+//                    $document->excerpt,
+//                    $document->date,
+//                    $document->slug,
+//                    $document->body()
+//                ))
+//                ->sortByDesc('date' );
+//        });
+
         return collect(File::files(resource_path("posts")))
             ->map(fn($file) => YamlFrontMatter::parseFile($file))
             ->map(fn($document) => new Post(
@@ -36,7 +50,10 @@ class Post
                 $document->date,
                 $document->slug,
                 $document->body()
-            ));
+            ))
+            ->sortByDesc('date' );
+
+
     }
 
     public static function find($slug) {
