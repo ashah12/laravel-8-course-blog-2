@@ -1,11 +1,10 @@
-<!doctype html>
+@extends('layout')
 
-<title>Abdullah's Laravel Blog</title>
-<link rel="stylesheet" href="/app.css">
+@section('banner')
+    <h1>My Blog</h1>
+@endsection
 
-<script src="/app.js"></script>
-
-<body>
+@section('content')
     @foreach ($posts as $post)
         <article>
             <h1>
@@ -18,4 +17,4 @@
             </div>
         </article>
     @endforeach
-</body>
+@endsection
