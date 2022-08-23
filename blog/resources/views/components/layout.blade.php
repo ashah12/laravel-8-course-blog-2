@@ -6,8 +6,5 @@
 <script src="/app.js"></script>
 
 <body>
-    <header>
-        @yield('banner')
-    </header>
-    @yield('content')
+    {{ $slot }}
 </body>
