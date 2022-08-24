@@ -2,11 +2,13 @@
 
 namespace Database\Factories;
 
+use App\Models\Model;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ * @extends Factory
  */
 class UserFactory extends Factory
 {
@@ -18,12 +20,11 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        static $password;
-
+        echo('User Factory');
         return [
             'name' => $this->faker->name,
             'email' => $this->faker->unique()->safeEmail,
-            'password' => $this->faker->password ?: $password = bcrypt('secret'),
+            'password' => $this->faker->password,
             'remember_token' => Str::random(10),
         ];
     }

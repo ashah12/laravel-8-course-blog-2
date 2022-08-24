@@ -14,49 +14,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-//         $this->call(UsersTableSeeder::class);
-//        \App\Models\User::factory(10)->create();  // doesn't have fatory
-//        factory(User::class, 50)->create();
         User::truncate();
         Category::truncate();
-        Post ::truncate();
+        Post::truncate();
 
-//        factory(User::class, 5)->create();
-
-        Post::factory()->create();
-//        $user = User::factory()->create();
-
-//        $personal = Category::create([
-//            'name' => 'Personal',
-//            'slug' => 'personal'
-//        ]);
-//
-//        $family = Category::create([
-//            'name' => 'Family',
-//            'slug' => 'family'
-//        ]);
-//
-//        $work = Category::create([
-//            'name' => 'Work',
-//            'slug' => 'work'
-//        ]);
-//
-//        Post::create([
-//            'user_id' => $user->id,
-//            'category_id' => $family->id,
-//            'title' => 'My Family Post',
-//            'slug' => 'my-first-post',
-//            'excerpt' => '<p>Hello darkness my old friend!</p>',
-//            'body' => '<p>Hello darkness my old friend, I have come to talk with you again!</p>'
-//        ]);
-//
-//        Post::create([
-//            'user_id' => $user->id,
-//            'category_id' => $work->id,
-//            'title' => 'My Work Post',
-//            'slug' => 'my-second-post',
-//            'excerpt' => '<p>Hello darkness my old friend!</p>',
-//            'body' => '<p>Hello darkness my old friend, I have come to talk with you again!</p>'
-//        ]);
+        Post::factory(5)->create();
+//        User::factory()->create();
+//        Category::factory()->create();
+//        echo('Finished');
     }
 }
