@@ -23,39 +23,40 @@ class DatabaseSeeder extends Seeder
 
 //        factory(User::class, 5)->create();
 
-        $user = User::factory()->create();
+        Post::factory()->create();
+//        $user = User::factory()->create();
 
-        $personal = Category::create([
-            'name' => 'Personal',
-            'slug' => 'personal'
-        ]);
-
-        $family = Category::create([
-            'name' => 'Family',
-            'slug' => 'family'
-        ]);
-
-        $work = Category::create([
-            'name' => 'Work',
-            'slug' => 'work'
-        ]);
-
-        Post::create([
-            'user_id' => $user->id,
-            'category_id' => $family->id,
-            'title' => 'My Family Post',
-            'slug' => 'my-first-post',
-            'excerpt' => '<p>Hello darkness my old friend!</p>',
-            'body' => '<p>Hello darkness my old friend, I have come to talk with you again!</p>'
-        ]);
-
-        Post::create([
-            'user_id' => $user->id,
-            'category_id' => $work->id,
-            'title' => 'My Work Post',
-            'slug' => 'my-second-post',
-            'excerpt' => '<p>Hello darkness my old friend!</p>',
-            'body' => '<p>Hello darkness my old friend, I have come to talk with you again!</p>'
-        ]);
+//        $personal = Category::create([
+//            'name' => 'Personal',
+//            'slug' => 'personal'
+//        ]);
+//
+//        $family = Category::create([
+//            'name' => 'Family',
+//            'slug' => 'family'
+//        ]);
+//
+//        $work = Category::create([
+//            'name' => 'Work',
+//            'slug' => 'work'
+//        ]);
+//
+//        Post::create([
+//            'user_id' => $user->id,
+//            'category_id' => $family->id,
+//            'title' => 'My Family Post',
+//            'slug' => 'my-first-post',
+//            'excerpt' => '<p>Hello darkness my old friend!</p>',
+//            'body' => '<p>Hello darkness my old friend, I have come to talk with you again!</p>'
+//        ]);
+//
+//        Post::create([
+//            'user_id' => $user->id,
+//            'category_id' => $work->id,
+//            'title' => 'My Work Post',
+//            'slug' => 'my-second-post',
+//            'excerpt' => '<p>Hello darkness my old friend!</p>',
+//            'body' => '<p>Hello darkness my old friend, I have come to talk with you again!</p>'
+//        ]);
     }
 }
