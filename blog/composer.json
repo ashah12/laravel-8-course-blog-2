@@ -37,6 +37,7 @@
         "optimize-autoloader": true
     },
     "require": {
+        "itsgoingd/clockwork": "^5.1",
         "laravel/framework": "^9.25",
         "spatie/yaml-front-matter": "^2.0"
     },
