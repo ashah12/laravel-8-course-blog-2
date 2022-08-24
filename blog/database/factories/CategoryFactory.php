@@ -19,7 +19,6 @@ class CategoryFactory extends Factory
      */
     public function definition()
     {
-        echo('Category Factory');
         $name = $this->faker->word;
         return [
             'name' => $name,
