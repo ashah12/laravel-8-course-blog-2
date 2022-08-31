@@ -26,13 +26,14 @@ class SessionsController extends Controller
             return redirect('/')->with('success', 'Successfully logged in!');
         }
         // authentication fails
-        throw ValidationException::withMessages([
-            'email' => 'Your provided credentials could not be verified.'
-        ]);
-//        return back()
-//            ->withInput()
-//            ->withErrors(['email' => 'Your provided credentials could not be verified.']);
-//        return redirect('/login')->with('success', 'Incorrect username or password');
+
+//        throw ValidationException::withMessages([
+//            'email' => 'Your provided credentials could not be verified.'
+//        ]);
+        
+        return back()
+            ->withInput()
+            ->withErrors(['email' => 'Your provided credentials could not be verified.']);
 
 
     }
