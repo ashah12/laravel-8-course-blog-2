@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Dotenv\Exception\ValidationException;
+
 class SessionsController extends Controller
 {
     protected function create()
@@ -20,15 +22,19 @@ class SessionsController extends Controller
         // attempt to authenticate and log in the user
         // based on the provided credentials
         if (auth()->attempt($attributes)) {
+            // redirect with a success flash message
             return redirect('/')->with('success', 'Successfully logged in!');
         }
         // authentication fails
-        return back()
-            ->withInput()
-            ->withErrors(['email' => 'Your provided credentials could not be verified.']);
+        throw ValidationException::withMessages([
+            'email' => 'Your provided credentials could not be verified.'
+        ]);
+//        return back()
+//            ->withInput()
+//            ->withErrors(['email' => 'Your provided credentials could not be verified.']);
 //        return redirect('/login')->with('success', 'Incorrect username or password');
 
-        // redirect with a success flash message
+
     }
 
     protected function destroy()
