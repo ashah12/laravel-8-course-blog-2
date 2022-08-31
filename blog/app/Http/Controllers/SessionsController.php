@@ -29,7 +29,7 @@ class SessionsController extends Controller
 //        ]);
 
         session()->regenerate();
-        
+
         return redirect('/')->with('success', 'Successfully logged in!');
     }
 
