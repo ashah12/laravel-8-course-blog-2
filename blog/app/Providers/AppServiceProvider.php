@@ -2,8 +2,10 @@
 
 namespace App\Providers;
 
+use App\Services\Newsletter;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
+use MailchimpMarketing\ApiClient;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,6 +26,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // putting something in the toychest
+        app()->bind(Newsletter::class, function () {
+            return new Newsletter(
+                new ApiClient(),
+                'foobar'
+            );
+        });
     }
 }
