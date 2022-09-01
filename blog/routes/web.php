@@ -5,7 +5,7 @@ use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\SessionsController;
-use App\Services\Newsletter;
+use App\Services\MailchimpNewsletter;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Validation\ValidationException;
 
