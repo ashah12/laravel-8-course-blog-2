@@ -26,7 +26,8 @@ class PostFactory extends Factory
         return [
             'user_id' => User::factory(),
             'category_id' => Category::factory(),
-            'thumbnail' => 'thumbnails/hpxRMEAcTJnhMTtDoupDafPXyR9BVHUv0xjYCUOO.jpg',
+//            'thumbnail' => 'thumbnails/hpxRMEAcTJnhMTtDoupDafPXyR9BVHUv0xjYCUOO.jpg',
+            'thumbnail' => $this->faker->image('storage/app/public/thumbnails', 360, 360),
             'title' => $title,
             'slug' => Str::slug($title),
             'excerpt' => $this->faker->sentence,

@@ -47,6 +47,22 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phar-io/version" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/mailchimp/marketing" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/spatie/yaml-front-matter" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/itsgoingd/clockwork" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/guzzlehttp/psr7" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

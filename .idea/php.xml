@@ -96,6 +96,22 @@
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/blog/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/blog/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/blog/vendor/mailchimp/marketing" />
+      <path value="$PROJECT_DIR$/blog/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/blog/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/yaml-front-matter" />
+      <path value="$PROJECT_DIR$/blog/vendor/itsgoingd/clockwork" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

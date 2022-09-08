@@ -5,8 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/laravel-8-course-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-8-course-blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/PostFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/components/category-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/components/category-button.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +123,22 @@
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/blog/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/blog/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/blog/vendor/mailchimp/marketing" />
+      <path value="$PROJECT_DIR$/blog/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/blog/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/yaml-front-matter" />
+      <path value="$PROJECT_DIR$/blog/vendor/itsgoingd/clockwork" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/blog/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
   <component name="ProjectId" id="2DRGkX5zWmRCsLs0jCrRnjAXGzl" />
@@ -155,6 +173,7 @@
       <workItem from="1660708313068" duration="1266000" />
       <workItem from="1660713194305" duration="4134000" />
       <workItem from="1660778822504" duration="2737000" />
+      <workItem from="1662607984963" duration="539000" />
     </task>
     <servers />
   </component>
