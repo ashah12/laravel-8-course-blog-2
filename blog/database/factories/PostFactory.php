@@ -22,14 +22,15 @@ class PostFactory extends Factory
      */
     public function definition()
     {
-        $title = $this->faker->word;
+        $title = $this->faker->sentence;
         return [
             'user_id' => User::factory(),
             'category_id' => Category::factory(),
+            'thumbnail' => 'thumbnails/hpxRMEAcTJnhMTtDoupDafPXyR9BVHUv0xjYCUOO.jpg',
             'title' => $title,
             'slug' => Str::slug($title),
-            'excerpt' => $this->faker->word,
-            'body' => $this->faker->word
+            'excerpt' => $this->faker->sentence,
+            'body' => $this->faker->paragraphs(nb: 3, asText: true)
         ];
     }
 }
